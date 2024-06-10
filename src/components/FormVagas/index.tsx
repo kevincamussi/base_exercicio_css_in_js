@@ -14,14 +14,13 @@ const FormVagas = ({ aoPesquisar }: Props) => {
   }
 
   return (
-    // <S.FormDasVagas onSubmit={aoEnviarForm}>
-    <S.FormDasVagas>
+    <S.FormDasVagas onSubmit={aoEnviarForm}>
       <S.InputVagas
-      // placeholder="Front-end, fullstack, node, design"
-      // onChange={(e) => setTermo(e.target.value)}
-      // type="search"
+        placeholder="Front-end, fullstack, node, design"
+        onChange={(e) => setTermo(e.target.value)}
+        type="search"
       />
-      {/* <button type="submit">Pesquisar</button> */}
+      <S.BotaoVagas type="submit">Pesquisar</S.BotaoVagas>
       <S.BotaoVagas>Pesquisar</S.BotaoVagas>
     </S.FormDasVagas>
   )

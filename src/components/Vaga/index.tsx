@@ -1,5 +1,3 @@
-// import styles from './Vaga.module.css'
-
 import * as S from './styles'
 
 type Props = {
@@ -24,7 +22,7 @@ const Vaga = (props: Props) => (
       </li>
       <li>Requisitos: {props.requisitos.join(', ')}</li>
     </ul>
-    {/* <S.VagaLink to="/">detalhes e candidatar-se</S.VagaLink> */}
+    <S.VagaLink to="/">Ver detalhes e candidatar-se</S.VagaLink>
   </S.Vaga>
 )
 
